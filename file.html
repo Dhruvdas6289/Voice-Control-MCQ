@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Recognition MCQ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1> MCQ Question Paper</h1>
+        <form id="mcq-form">
+            <div id="quiz">
+                <div class="question" id="question1">
+                    <p>1. What is the capital of France?</p>
+                    <input type="radio" name="q1" value="A" id="q1a"><label for="q1a">A. Paris</label><br>
+                    <input type="radio" name="q1" value="B" id="q1b"><label for="q1b">B. London</label><br>
+                    <input type="radio" name="q1" value="C" id="q1c"><label for="q1c">C. Berlin</label><br>
+                    <input type="radio" name="q1" value="D" id="q1d"><label for="q1d">D. Madrid</label><br>
+                </div>
+                <div class="question" id="question2">
+                    <p>2. Once upon a time, in a faraway land, there was a brave knight who embarked on a quest to save the kingdom. He encountered various challenges along the way, including a fierce dragon. What did the knight do to defeat the dragon?</p>
+                    <input type="radio" name="q2" value="A" id="q2a"><label for="q2a">A. He fought the dragon with his sword</label><br>
+                    <input type="radio" name="q2" value="B" id="q2b"><label for="q2b">B. He used a magic spell to tame the dragon</label><br>
+                    <input type="radio" name="q2" value="C" id="q2c"><label for="q2c">C. He tricked the dragon into a trap</label><br>
+                    <input type="radio" name="q2" value="D" id="q2d"><label for="q2d">D. He ran away</label><br>
+                </div>
+            <button type="button" onclick="startQuiz()">Start Quiz</button>
+            
+        </form>
+        <div id="result"></div>
+        <div id="timer">Time left: 01:20</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
